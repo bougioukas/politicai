@@ -1,8 +1,2 @@
-# Introduction
+# Introduction  {#sec-intro}
 
-
-See @knuth84 for additional discussion of literate programming.
-
-```{r}
-1 + 1
-```
