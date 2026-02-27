@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "politicai",
+    "title": "Artificial Intelligence in Political Sciences",
     "section": "",
-    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2",
+    "text": "Preface\nIn this course, we explore the history, theory, and philosophy of artificial intelligence. We cover foundational concepts like the Turing machine, Turing’s behavioral test for machine intelligence, and Searle’s Chinese Room argument, which question what it means for machines to “understand” or think.\nBuilding on these ideas, students will learn the core principles of classical machine learning and neural networks, gaining an intuitive understanding of how algorithms learn from data.\nThe course also examines AI’s role in political science, showing how technologies such as supervised and unsupervised learning, natural language processing, and deep learning are transforming research and society, while raising important questions about power, equity, transparency, safety, and ethics.",
     "crumbs": [
       "Preface"
     ]
@@ -20,13 +20,13 @@
     ]
   },
   {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "2  Summary",
+    "objectID": "presentations.html",
+    "href": "presentations.html",
+    "title": "2  Presentations",
     "section": "",
-    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2",
+    "text": "Lecture 1: Intro and data structures\n\n\n\n\nLecture_1-Introduction_AI",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Presentations</span>"
     ]
   },
   {
