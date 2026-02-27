@@ -6,18 +6,12 @@ Artificial Intelligence (AI) emerged as a formal scientific discipline in the mi
 
 Furthermore, modern AI research critically addresses ethical dimensions—such as fairness and accountability—alongside the broader societal impacts on human rights, labor, and governance. This underscores the vital need to integrate social science perspectives into the design, deployment, and evaluation of intelligent technologies.
 
-
 ## Key Landmarks in AI History
 
+-  **400 BCE: The Mechanical Pigeon** ![](\images\pigeon.png){width=80 .wrap-right}
 
-- **400 BCE: The Mechanical Pigeon**
+> In the 4th century BCE, the Greek philosopher and mathematician Archytas of Tarentum reportedly devised a bird-shaped mechanical device known as "The Pigeon," propelled by a jet of air or steam and said to travel a measurable distance when released from a pivot or wire. The word automaton—from the Greek automaton ("αὐτόματον"), meaning "acting of one's own will"—was used in antiquity to describe devices that appeared to move without direct human control. From these origins to modern silicon-based systems and drones, a persistent ambition has defined the history of technology: translating biological models and physical laws into engineered systems capable of autonomous or adaptive behavior. 
 
-In the 4th century BCE, the Greek philosopher and mathematician Archytas of Tarentum reportedly devised a bird-shaped mechanical device known as "The Pigeon." Powered by a jet of air or steam, it is said to have flown a measurable distance when released from a pivot or wire. While no physical evidence remains and scholars debate its exact mechanics, the account stands as one of the earliest recorded attempts to apply mathematical and physical principles to achieve self-propelled motion.
+-   **80 BC: The Antikythera Mechanism** ![](\images\antikythera.png){width=65 .wrap-right}
 
-From these early experiments in automata to contemporary silicon-based systems and drones, a persistent ambition has defined the history of technology: the translation of biological models and physical laws into engineered systems capable of autonomous or adaptive behavior.
-
-
-
-
-
-
+> In the late 2nd to early 1st century BCE, the Antikythera mechanism — an ancient Greek hand‑powered device often described as the world’s earliest known analog computer — was designed with interlocking bronze gears and dials to calculate and display astronomical information such as the positions of the sun, moon, and planets and to predict celestial events like eclipses.

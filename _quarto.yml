@@ -24,6 +24,9 @@ book:
 
 bibliography: references.bib
 
+filters:
+  - quarto
+  - fwrappe
 
 format:
   html:

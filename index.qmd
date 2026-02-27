@@ -7,4 +7,3 @@ Building on these ideas, students will learn the core principles of classical ma
 The course also examines AI’s role in political science, showing how technologies such as supervised and unsupervised learning, natural language processing, and deep learning are transforming research and society, while raising important questions about power, equity, transparency, safety, and ethics.
 
 {{< qrcode https://politicai.netlify.app/ width=100 height=100 colorDark='#0011bb' >}}
-
