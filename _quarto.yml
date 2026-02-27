@@ -2,7 +2,7 @@ project:
   type: book
 
 book:
-  title: "Artificial Intelligence in Political Sciences"
+  title: "Artificial Intelligence in Social and Political Sciences"
   subtitle: "1st Edition"
   author: 
     - name: "Konstantinos I. Bougioukas, PhD"
@@ -33,7 +33,7 @@ format:
       sidebar-width: 270px
       body-width: 840px
       margin-width: 250px
-    fontsize: 1.15em
+    fontsize: 1.2em
     linestretch: 1.5
     toc-title: "On this page"
     link-external-newwindow: true

@@ -2,11 +2,31 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Artificial Intelligence in Political Sciences",
+    "title": "Artificial Intelligence in Social and Political Sciences",
     "section": "",
     "text": "Preface\nIn this course, we explore the history, theory, and philosophy of artificial intelligence. We cover foundational concepts like the Turing machine, Turing’s behavioral test for machine intelligence, and Searle’s Chinese Room argument, which question what it means for machines to “understand” or think.\nBuilding on these ideas, students will learn the core principles of classical machine learning and neural networks, gaining an intuitive understanding of how algorithms learn from data.\nThe course also examines AI’s role in political science, showing how technologies such as supervised and unsupervised learning, natural language processing, and deep learning are transforming research and society, while raising important questions about power, equity, transparency, safety, and ethics.",
     "crumbs": [
       "Preface"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction to Artificial Intelligence",
+    "section": "",
+    "text": "1.1 The discipline of Artificial Intelligence\nArtificial Intelligence (AI) emerged as a formal scientific discipline in the mid-20th century, building upon centuries of philosophical and cognitive inquiry into reasoning, logic, and the nature of the mind. While rooted in computer science, AI is inherently interdisciplinary; its theoretical foundations draw from philosophy (knowledge and ethics), psychology (learning and behavior), and neuroscience (biological information processing).\nFurthermore, modern AI research critically addresses ethical dimensions—such as fairness and accountability—alongside the broader societal impacts on human rights, labor, and governance. This underscores the vital need to integrate social science perspectives into the design, deployment, and evaluation of intelligent technologies.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to Artificial Intelligence</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#key-landmarks-in-ai-history",
+    "href": "intro.html#key-landmarks-in-ai-history",
+    "title": "1  Introduction to Artificial Intelligence",
+    "section": "1.2 Key Landmarks in AI History",
+    "text": "1.2 Key Landmarks in AI History\n\n400 BCE: The Mechanical Pigeon\n\nIn the 4th century BCE, the Greek philosopher and mathematician Archytas of Tarentum reportedly devised a bird-shaped mechanical device known as “The Pigeon.” Powered by a jet of air or steam, it is said to have flown a measurable distance when released from a pivot or wire. While no physical evidence remains and scholars debate its exact mechanics, the account stands as one of the earliest recorded attempts to apply mathematical and physical principles to achieve self-propelled motion.\nFrom these early experiments in automata to contemporary silicon-based systems and drones, a persistent ambition has defined the history of technology: the translation of biological models and physical laws into engineered systems capable of autonomous or adaptive behavior.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to Artificial Intelligence</span>"
     ]
   },
   {
