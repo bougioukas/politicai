@@ -72,7 +72,7 @@ The model (robot) is given a goal ("choose the shape to build a pyramid") and mu
 
 <br>
 
-In late 2013, DeepMind’s Deep Q‑Network (DQN) marked a milestone in AI by using deep reinforcement learning to play Atari 2600 games, with no prior knowledge of the rules or strategies. Applied to the classic Atari game Breakout, where a paddle bounces a ball to destroy bricks, the DQN agent learned effective play from scratch and eventually discovered a “tunneling” strategy—creating a gap in the brick wall so the ball could bounce behind it and rack up high scores—a sophisticated policy that emerged purely from learning the reward structure, and notably, even the DeepMind researchers had not anticipated this specific tactic until they observed it in the trained agent [@tegmark2017].
+In late 2013, DeepMind’s Deep Q‑Network (DQN) marked a milestone in AI by using deep reinforcement learning to play Atari 2600 games, with no prior knowledge of the rules or strategies. Applied to the classic Atari game Breakout, where a paddle bounces a ball to destroy bricks, the DQN agent learned effective play from scratch and eventually discovered a “tunneling” strategy—creating a gap in the leftmost part of the brick wall so the ball could bounce behind it and rack up high scores—a sophisticated policy that emerged purely from learning the reward structure, and notably, even the DeepMind researchers had not anticipated this specific tactic until they observed it in the trained agent [@tegmark2017].
 
 <br>
 
@@ -103,3 +103,37 @@ Each element influences and constrains the others [@reddi2024mlsysbook].
 -   The scale and complexity of the data influence the infrastructure needed for storage and processing, while also constraining which model architectures are feasible.
 
 -   The capabilities of the infrastructure set practical limits on both model size and data processing capacity, establishing the framework within which the other components must operate.
+
+
+
+## Classification of Artificial Intelligence
+
+Artificial intelligence (AI) can be categorized into three main types based on its scope and level of capability:
+
+**1. Artificial Narrow Intelligence (ANI):**
+Also called Weak AI, ANI is the most common form of AI in use today. These systems are designed to perform a specific task or a limited set of tasks with high efficiency. They are not capable of understanding, learning, or applying knowledge beyond their specific programmed scope.
+
+**2. Artificial General Intelligence (AGI):**
+Often referred to as Strong AI, AGI represents a level of intelligence comparable to that of a human being. An AGI system would be capable of learning, reasoning, and solving problems across multiple domains, applying knowledge flexibly to perform any intellectual task a human can.
+
+**3. Artificial Superintelligence (ASI):**
+ASI denotes a hypothetical form of AI that surpasses human intelligence in all aspects. Beyond mere computational power, ASI would excel in creativity, problem-solving, social understanding, and scientific innovation, potentially transforming every area of human activity.
+
+
+| Type | Alternate Names | Scope/Capabilities | Current Status | Examples/Notes |
+|:---|:---|:---|:---|:---|
+| **Artificial Narrow Intelligence (ANI)** | Weak AI, Narrow AI | Single task, high proficiency | Widely implemented | Siri, Alexa, Deep Blue, Google Search, movie recommendations |
+| **Artificial General Intelligence (AGI)** | Strong AI, General AI | Human-level intelligence, multi-domain | Theoretical? | Sophia robot |
+| **Artificial Super Intelligence (ASI)** | Superintelligence | Surpasses human intelligence, including creativity, social wisdom, and scientific innovation | Hypothetical | Science fiction, ethical debates |
+
+
+
+
+
+
+
+
+
+
+
+

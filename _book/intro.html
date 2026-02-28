@@ -178,6 +178,7 @@ div.csl-indent {
   <li><a href="#reinforcement-learning" id="toc-reinforcement-learning" class="nav-link" data-scroll-target="#reinforcement-learning"><span class="header-section-number">1.3.3</span> Reinforcement learning</a></li>
   </ul></li>
   <li><a href="#components-of-ai-systems" id="toc-components-of-ai-systems" class="nav-link" data-scroll-target="#components-of-ai-systems"><span class="header-section-number">1.4</span> Components of AI Systems</a></li>
+  <li><a href="#classification-of-artificial-intelligence" id="toc-classification-of-artificial-intelligence" class="nav-link" data-scroll-target="#classification-of-artificial-intelligence"><span class="header-section-number">1.5</span> Classification of Artificial Intelligence</a></li>
   </ul>
 </nav>
     </div>
@@ -260,7 +261,7 @@ div.csl-indent {
 <p><img src="images\rl.png" class="img-fluid" width="300"></p>
 <p>The model (robot) is given a goal (“choose the shape to build a pyramid”) and must use trial and error to determine which shapes lead to the highest reward.</p>
 <p><br></p>
-<p>In late 2013, DeepMind’s Deep Q‑Network (DQN) marked a milestone in AI by using deep reinforcement learning to play Atari 2600 games, with no prior knowledge of the rules or strategies. Applied to the classic Atari game Breakout, where a paddle bounces a ball to destroy bricks, the DQN agent learned effective play from scratch and eventually discovered a “tunneling” strategy—creating a gap in the brick wall so the ball could bounce behind it and rack up high scores—a sophisticated policy that emerged purely from learning the reward structure, and notably, even the DeepMind researchers had not anticipated this specific tactic until they observed it in the trained agent <span class="citation" data-cites="tegmark2017">(<a href="references.html#ref-tegmark2017" role="doc-biblioref">Tegmark 2017</a>)</span>.</p>
+<p>In late 2013, DeepMind’s Deep Q‑Network (DQN) marked a milestone in AI by using deep reinforcement learning to play Atari 2600 games, with no prior knowledge of the rules or strategies. Applied to the classic Atari game Breakout, where a paddle bounces a ball to destroy bricks, the DQN agent learned effective play from scratch and eventually discovered a “tunneling” strategy—creating a gap in the leftmost part of the brick wall so the ball could bounce behind it and rack up high scores—a sophisticated policy that emerged purely from learning the reward structure, and notably, even the DeepMind researchers had not anticipated this specific tactic until they observed it in the trained agent <span class="citation" data-cites="tegmark2017">(<a href="references.html#ref-tegmark2017" role="doc-biblioref">Tegmark 2017</a>)</span>.</p>
 <p><br></p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -291,6 +292,54 @@ div.csl-indent {
 <li><p>The scale and complexity of the data influence the infrastructure needed for storage and processing, while also constraining which model architectures are feasible.</p></li>
 <li><p>The capabilities of the infrastructure set practical limits on both model size and data processing capacity, establishing the framework within which the other components must operate.</p></li>
 </ul>
+</section>
+<section id="classification-of-artificial-intelligence" class="level2" data-number="1.5">
+<h2 data-number="1.5" class="anchored" data-anchor-id="classification-of-artificial-intelligence"><span class="header-section-number">1.5</span> Classification of Artificial Intelligence</h2>
+<p>Artificial intelligence (AI) can be categorized into three main types based on its scope and level of capability:</p>
+<p><strong>1. Artificial Narrow Intelligence (ANI):</strong> Also called Weak AI, ANI is the most common form of AI in use today. These systems are designed to perform a specific task or a limited set of tasks with high efficiency. They are not capable of understanding, learning, or applying knowledge beyond their specific programmed scope.</p>
+<p><strong>2. Artificial General Intelligence (AGI):</strong> Often referred to as Strong AI, AGI represents a level of intelligence comparable to that of a human being. An AGI system would be capable of learning, reasoning, and solving problems across multiple domains, applying knowledge flexibly to perform any intellectual task a human can.</p>
+<p><strong>3. Artificial Superintelligence (ASI):</strong> ASI denotes a hypothetical form of AI that surpasses human intelligence in all aspects. Beyond mere computational power, ASI would excel in creativity, problem-solving, social understanding, and scientific innovation, potentially transforming every area of human activity.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Type</th>
+<th style="text-align: left;">Alternate Names</th>
+<th style="text-align: left;">Scope/Capabilities</th>
+<th style="text-align: left;">Current Status</th>
+<th style="text-align: left;">Examples/Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Artificial Narrow Intelligence (ANI)</strong></td>
+<td style="text-align: left;">Weak AI, Narrow AI</td>
+<td style="text-align: left;">Single task, high proficiency</td>
+<td style="text-align: left;">Widely implemented</td>
+<td style="text-align: left;">Siri, Alexa, Deep Blue, Google Search, movie recommendations</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Artificial General Intelligence (AGI)</strong></td>
+<td style="text-align: left;">Strong AI, General AI</td>
+<td style="text-align: left;">Human-level intelligence, multi-domain</td>
+<td style="text-align: left;">Theoretical?</td>
+<td style="text-align: left;">Sophia robot</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Artificial Super Intelligence (ASI)</strong></td>
+<td style="text-align: left;">Superintelligence</td>
+<td style="text-align: left;">Surpasses human intelligence, including creativity, social wisdom, and scientific innovation</td>
+<td style="text-align: left;">Hypothetical</td>
+<td style="text-align: left;">Science fiction, ethical debates</td>
+</tr>
+</tbody>
+</table>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
