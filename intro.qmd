@@ -70,9 +70,21 @@ Reinforcement learning involves an agent (robot) interacting with an environment
 
 The model (robot) is given a goal ("choose the shape to build a pyramid") and must use trial and error to determine which shapes lead to the highest reward.
 
+<br>
+
+In late 2013, DeepMind’s Deep Q‑Network (DQN) marked a milestone in AI by using deep reinforcement learning to play Atari 2600 games, with no prior knowledge of the rules or strategies. Applied to the classic Atari game Breakout, where a paddle bounces a ball to destroy bricks, the DQN agent learned effective play from scratch and eventually discovered a “tunneling” strategy—creating a gap in the brick wall so the ball could bounce behind it and rack up high scores—a sophisticated policy that emerged purely from learning the reward structure, and notably, even the DeepMind researchers had not anticipated this specific tactic until they observed it in the trained agent [@tegmark2017].
+
+<br>
+
+![](images\atari.png){fig-align="center" width="350"}
+
+<br>
+
 ## Components of AI Systems
 
-The core of any machine learning system comprises three interrelated components that form a triangular dependency: models/algorithms, data, and computing infrastructure [@reddi2024mlsysbook]. 
+The core of any machine learning system comprises three interrelated components that form a triangular dependency: models/algorithms, data, and computing infrastructure [@reddi2024mlsysbook].
+
+<br>
 
 ![](images\aisystems.png){fig-align="center" width="500"}
 
@@ -84,12 +96,10 @@ The core of any machine learning system comprises three interrelated components 
 
 <br>
 
-Each element influences and constrains the others [@reddi2024mlsysbook]. 
+Each element influences and constrains the others [@reddi2024mlsysbook].
 
-- The model architecture determines both the computational requirements for training and inference and the volume and structure of data needed for effective learning. 
+-   The model architecture determines both the computational requirements for training and inference and the volume and structure of data needed for effective learning.
 
-- The scale and complexity of the data influence the infrastructure needed for storage and processing, while also constraining which model architectures are feasible. 
+-   The scale and complexity of the data influence the infrastructure needed for storage and processing, while also constraining which model architectures are feasible.
 
-- The capabilities of the infrastructure set practical limits on both model size and data processing capacity, establishing the framework within which the other components must operate.
-
-
+-   The capabilities of the infrastructure set practical limits on both model size and data processing capacity, establishing the framework within which the other components must operate.
