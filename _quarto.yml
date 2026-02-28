@@ -13,6 +13,7 @@ book:
   chapters:
     - index.qmd
     - intro.qmd
+    - history.qmd
     #- summary.qmd
     - presentations.qmd
     - references.qmd
@@ -23,10 +24,6 @@ book:
   back-to-top-navigation: true
 
 bibliography: references.bib
-
-filters:
-  - quarto
-  - fwrappe
 
 format:
   html:

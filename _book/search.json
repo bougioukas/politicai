@@ -14,29 +14,89 @@
     "href": "intro.html",
     "title": "1  Introduction to Artificial Intelligence",
     "section": "",
-    "text": "1.1 The discipline of Artificial Intelligence\nArtificial Intelligence (AI) emerged as a formal scientific discipline in the mid-20th century, building upon centuries of philosophical and cognitive inquiry into reasoning, logic, and the nature of the mind. While rooted in computer science, AI is inherently interdisciplinary; its theoretical foundations draw from philosophy (knowledge and ethics), psychology (learning and behavior), and neuroscience (biological information processing).\nFurthermore, modern AI research critically addresses ethical dimensions—such as fairness and accountability—alongside the broader societal impacts on human rights, labor, and governance. This underscores the vital need to integrate social science perspectives into the design, deployment, and evaluation of intelligent technologies.",
+    "text": "1.1 The Discipline of Artificial Intelligence\nLike the steam engine or electricity in the past, Artificial Intelligence (AI) is now fundamentally transforming our world, society, and industries. How we approach AI will shape the world we live in. AI has the potential to bring many benefits, including better healthcare, safer and cleaner transportation, more efficient manufacturing, and cheaper, more sustainable energy. At the same time, however, it is widely acknowledged that the same elements and techniques that drive AI’s socio-economic advantages can also give rise to critical ethical concerns and introduce new risks or negative consequences for individuals and society (Nikolinakos 2023).\nArtificial Intelligence (AI) emerged as a formal scientific discipline in the mid-20th century, building on centuries of philosophical and cognitive inquiry into reasoning, logic, and the nature of the mind. AI became a reality thanks to the development of advanced algorithms, the explosion of digital data, and the rise of high-performance computing infrastructure.\nWhile rooted in computer science, AI is inherently interdisciplinary, with theoretical foundations drawn from philosophy (knowledge and ethics), psychology (learning and behavior), and neuroscience (biological information processing). Modern AI research also critically addresses ethical considerations such as fairness and accountability, as well as broader societal impacts on human rights, labor, and governance. This highlights the vital need to integrate social science perspectives into the design, deployment, and evaluation of intelligent technologies.\nBecause of its interdisciplinary and multifaceted nature, combined with the diversity of its applications, AI is not easy to define precisely.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to Artificial Intelligence</span>"
     ]
   },
   {
-    "objectID": "intro.html#key-landmarks-in-ai-history",
-    "href": "intro.html#key-landmarks-in-ai-history",
+    "objectID": "intro.html#the-discipline-of-artificial-intelligence",
+    "href": "intro.html#the-discipline-of-artificial-intelligence",
     "title": "1  Introduction to Artificial Intelligence",
-    "section": "1.2 Key Landmarks in AI History",
-    "text": "1.2 Key Landmarks in AI History\n\n400 BCE: The Mechanical Pigeon \n\n\nIn the 4th century BCE, the Greek philosopher and mathematician Archytas of Tarentum reportedly devised a bird-shaped mechanical device known as “The Pigeon,” propelled by a jet of air or steam and said to travel a measurable distance when released from a pivot or wire. The word automaton—from the Greek automaton (“αὐτόματον”), meaning “acting of one’s own will”—was used in antiquity to describe devices that appeared to move without direct human control. From these origins to modern silicon-based systems and drones, a persistent ambition has defined the history of technology: translating biological models and physical laws into engineered systems capable of autonomous or adaptive behavior.\n\n\n80 BC: The Antikythera Mechanism \n\n\nIn the late 2nd to early 1st century BCE, the Antikythera mechanism — an ancient Greek hand‑powered device often described as the world’s earliest known analog computer — was designed with interlocking bronze gears and dials to calculate and display astronomical information such as the positions of the sun, moon, and planets and to predict celestial events like eclipses.",
+    "section": "",
+    "text": "Definitions (Manyika 2022)\n\n(Human‑centric description) “Artificial intelligence is the ability of a digital computer or computer‑controlled robot to perform tasks commonly associated with intelligent beings (usually humans), including visual perception, speech recognition, the capacity to reason, solve problems, discover meaning, generalize, and learn from experience.”\n(Free of human-centricity) AI refers to any system that can perceive its environment and take actions that maximize its chance of achieving specified goals.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to Artificial Intelligence</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#major-subfields-of-ai",
+    "href": "intro.html#major-subfields-of-ai",
+    "title": "1  Introduction to Artificial Intelligence",
+    "section": "1.2 Major Subfields of AI",
+    "text": "1.2 Major Subfields of AI\nAI is composed of several specialized subfields, each addressing different aspects of intelligent behavior and employing distinct methodologies and tools that have emerged over more than 70 years.\n\n\nSymbolic AI: Early AI research focused on symbolic reasoning, which represents knowledge using explicit symbols and formal rules, enabling the application of logical operations to these symbols.\nMachine Learning (ML): It is a core subfield of AI that focuses on developing algorithms and statistical models enabling computers to learn from data (training stage) and improve their performance autonomously, without explicit programming.\nDeep Learning (DL): Deep Learning is a subfield of ML that utilizes large artificial neural networks with multiple hidden layers to process complex data and recognize patterns (unlike neural networks used in classic machine learning models, which usually have only one or two hidden layers).",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to Artificial Intelligence</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#learning-methods",
+    "href": "intro.html#learning-methods",
+    "title": "1  Introduction to Artificial Intelligence",
+    "section": "1.3 Learning methods",
+    "text": "1.3 Learning methods\n\n1.3.1 Supervised Learning\nIn supervised learning, the model is trained using labeled data, where each input sample is associated with a corresponding target label. The objective is the prediction.\n\nExample: Is it a square?\n\n\nThe Training Data: The process begins with a dataset consisting of various geometric shapes, each associated with a label (pentagon, triangle, circle, square). In machine learning, these labels represent the ground truth and provide the reference outcomes the model aims to learn.\nThe Learning Process (The “Gears”): The labeled data is processed by an algorithm, which learns underlying associations between the input shapes and their corresponding labels.\nTesting on New Data (The “Robot”): The trained model (the robot) is presented with new geometric shapes and predicts what each shape is.\n\n\n1.3.2 Unsupervised Learning\nIn unsupervised learning, the model is trained using unlabeled data. The objective is to cluster the data.\n\nExample: Into which cluster does the new geometric object belong?\n\n\nUnlabeled Training Data: The input comprises a diverse set of geometric objects lacking predefined categories or ground-truth labels.\nLearning to Cluster (The “Gears”): The algorithm identifies “hidden” patterns in the shapes, i.e., similarities in structure, size, or edges to cluster them.\nTesting on New Data (The “Robot”): When presented with a new shape, the trained model (the “robot”) evaluates it and assigns it to the most appropriate cluster based on the patterns it has learned.\n\n\n1.3.3 Reinforcement learning\nReinforcement learning involves an agent (robot) interacting with an environment to learn optimal behavior through trial and error. The agent receives feedback in the form of rewards or penalties based on its actions, and the goal is to maximize cumulative rewards over time.\n\nExample: What is the best strategy for arranging the geometric objects into a pyramid?\n\n\nThe model (robot) is given a goal (“choose the shape to build a pyramid”) and must use trial and error to determine which shapes lead to the highest reward.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to Artificial Intelligence</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#components-of-ai-systems",
+    "href": "intro.html#components-of-ai-systems",
+    "title": "1  Introduction to Artificial Intelligence",
+    "section": "1.4 Components of AI Systems",
+    "text": "1.4 Components of AI Systems\nThe core of any machine learning system comprises three interrelated components that form a triangular dependency: models/algorithms, data, and computing infrastructure. Each element influences and constrains the others. The model architecture determines both the computational requirements for training and inference and the volume and structure of data needed for effective learning. The scale and complexity of the data influence the infrastructure needed for storage and processing, while also constraining which model architectures are feasible. Meanwhile, the capabilities of the infrastructure set practical limits on both model size and data processing capacity, establishing the framework within which the other components must operate (Reddi 2024).\n\n\n\n\n\n\nModels: Mathematical models, algorithms, and methods that learn patterns from data to make predictions or decisions\nData: Processes and infrastructure for collecting, storing, processing, managing, and serving data for both training and inference\nInfrastructure: Hardware and software infrastructure that enables training, serving, and operation of models at scale\n\n\n\n\n\nManyika, James. 2022. “Getting AI Right: Introductory Notes on AI & Society.” Daedalus 151 (2): 5–27. https://doi.org/10.1162/daed_e_01897.\n\n\nNikolinakos, Nikos Th. 2023. “Introduction: Benefits/Opportunities and Threats/Risks of AIStructure of This Book.” In, 3–21. Springer International Publishing. https://doi.org/10.1007/978-3-031-27953-9_1.\n\n\nReddi, Vijay Janapa. 2024. “MLSysBook.AI: Principles and Practices of Machine Learning Systems Engineering.” In 2024 International Conference on Hardware/Software Codesign and System Synthesis (CODES+ ISSS), 41–42. IEEE. https://mlsysbook.org.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to Artificial Intelligence</span>"
+    ]
+  },
+  {
+    "objectID": "history.html",
+    "href": "history.html",
+    "title": "2  A short history of AI",
+    "section": "",
+    "text": "2.1 Key Landmarks in AI History",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>A short history of AI</span>"
+    ]
+  },
+  {
+    "objectID": "history.html#key-landmarks-in-ai-history",
+    "href": "history.html#key-landmarks-in-ai-history",
+    "title": "2  A short history of AI",
+    "section": "",
+    "text": "400 BCE: The Mechanical Pigeon\n\n\n\nIn the 4th century BCE, the Greek philosopher and mathematician Archytas of Tarentum reportedly devised a bird-shaped mechanical device known as “The Pigeon,” propelled by a jet of air or steam and said to travel a measurable distance when released from a pivot or wire. The word automaton—from the Greek automaton (“αὐτόματον”), meaning “acting of one’s own will”—was used in antiquity to describe devices that appeared to move without direct human control. From these origins to modern silicon-based systems and drones, a persistent ambition has defined the history of technology: translating biological models and physical laws into engineered systems capable of autonomous or adaptive behavior.\n\n\n80 BC: The Antikythera Mechanism\n\n\n\nIn the late 2nd to early 1st century BCE, the Antikythera mechanism — an ancient Greek hand‑powered device often described as the world’s earliest known analog computer — was designed with interlocking bronze gears and dials to calculate and display astronomical information such as the positions of the sun, moon, and planets and to predict celestial events like eclipses.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>A short history of AI</span>"
     ]
   },
   {
     "objectID": "presentations.html",
     "href": "presentations.html",
-    "title": "2  Presentations",
+    "title": "3  Presentations",
     "section": "",
     "text": "Lecture 1: Intro and data structures\n\n\n\n\nLecture_1-Introduction_AI",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Presentations</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Presentations</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Manyika, James. 2022. “Getting AI Right: Introductory Notes on AI\n& Society.” Daedalus 151 (2): 5–27. https://doi.org/10.1162/daed_e_01897.\n\n\nNikolinakos, Nikos Th. 2023. “Introduction: Benefits/Opportunities\nand Threats/Risks of AIStructure of This Book.” In,\n3–21. Springer International Publishing. https://doi.org/10.1007/978-3-031-27953-9_1.\n\n\nReddi, Vijay Janapa. 2024. “MLSysBook.AI: Principles and Practices\nof Machine Learning Systems Engineering.” In 2024\nInternational Conference on Hardware/Software Codesign and System\nSynthesis (CODES+ ISSS), 41–42. IEEE. https://mlsysbook.org.",
+    "crumbs": [
+      "References"
     ]
   }
 ]

@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -30,7 +50,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./presentations.html" rel="next">
+<link href="./history.html" rel="next">
 <link href="./index.html" rel="prev">
 <link href="./images/cover.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
@@ -71,20 +91,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<style>
-  .quarto-figure.wrap {
-      margin-top: 30pt;
-      margin-right: 30pt;
-      margin-bottom: 30pt;
-      margin-left: 30pt;
-  }
-  .quarto-figure.wrap-left {
-      float: left;
-  }
-  .quarto-figure.wrap-right {
-      float: right;
-  }
-</style>
 
 
 </head>
@@ -137,8 +143,14 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./history.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">A short history of AI</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./presentations.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Presentations</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Presentations</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -157,8 +169,15 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#the-discipline-of-artificial-intelligence" id="toc-the-discipline-of-artificial-intelligence" class="nav-link active" data-scroll-target="#the-discipline-of-artificial-intelligence"><span class="header-section-number">1.1</span> The discipline of Artificial Intelligence</a></li>
-  <li><a href="#key-landmarks-in-ai-history" id="toc-key-landmarks-in-ai-history" class="nav-link" data-scroll-target="#key-landmarks-in-ai-history"><span class="header-section-number">1.2</span> Key Landmarks in AI History</a></li>
+  <li><a href="#the-discipline-of-artificial-intelligence" id="toc-the-discipline-of-artificial-intelligence" class="nav-link active" data-scroll-target="#the-discipline-of-artificial-intelligence"><span class="header-section-number">1.1</span> The Discipline of Artificial Intelligence</a></li>
+  <li><a href="#major-subfields-of-ai" id="toc-major-subfields-of-ai" class="nav-link" data-scroll-target="#major-subfields-of-ai"><span class="header-section-number">1.2</span> Major Subfields of AI</a></li>
+  <li><a href="#learning-methods" id="toc-learning-methods" class="nav-link" data-scroll-target="#learning-methods"><span class="header-section-number">1.3</span> Learning methods</a>
+  <ul class="collapse">
+  <li><a href="#supervised-learning" id="toc-supervised-learning" class="nav-link" data-scroll-target="#supervised-learning"><span class="header-section-number">1.3.1</span> Supervised Learning</a></li>
+  <li><a href="#unsupervised-learning" id="toc-unsupervised-learning" class="nav-link" data-scroll-target="#unsupervised-learning"><span class="header-section-number">1.3.2</span> Unsupervised Learning</a></li>
+  <li><a href="#reinforcement-learning" id="toc-reinforcement-learning" class="nav-link" data-scroll-target="#reinforcement-learning"><span class="header-section-number">1.3.3</span> Reinforcement learning</a></li>
+  </ul></li>
+  <li><a href="#components-of-ai-systems" id="toc-components-of-ai-systems" class="nav-link" data-scroll-target="#components-of-ai-systems"><span class="header-section-number">1.4</span> Components of AI Systems</a></li>
   </ul>
 </nav>
     </div>
@@ -184,27 +203,90 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>Like the steam engine or electricity in the past, Artificial Intelligence (AI) is now fundamentally transforming our world, society, and industries. How we approach AI will shape the world we live in. AI has the potential to bring many benefits, including better healthcare, safer and cleaner transportation, more efficient manufacturing, and cheaper, more sustainable energy. At the same time, however, it is widely acknowledged that the same elements and techniques that drive AI’s socio-economic advantages can also give rise to critical ethical concerns and introduce new risks or negative consequences for individuals and society <span class="citation" data-cites="nikolinakos2023a">(<a href="references.html#ref-nikolinakos2023a" role="doc-biblioref">Nikolinakos 2023</a>)</span>.</p>
 <section id="the-discipline-of-artificial-intelligence" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="the-discipline-of-artificial-intelligence"><span class="header-section-number">1.1</span> The discipline of Artificial Intelligence</h2>
-<p>Artificial Intelligence (AI) emerged as a formal scientific discipline in the mid-20th century, building upon centuries of philosophical and cognitive inquiry into reasoning, logic, and the nature of the mind. While rooted in computer science, AI is inherently interdisciplinary; its theoretical foundations draw from philosophy (knowledge and ethics), psychology (learning and behavior), and neuroscience (biological information processing).</p>
-<p>Furthermore, modern AI research critically addresses ethical dimensions—such as fairness and accountability—alongside the broader societal impacts on human rights, labor, and governance. This underscores the vital need to integrate social science perspectives into the design, deployment, and evaluation of intelligent technologies.</p>
+<h2 data-number="1.1" class="anchored" data-anchor-id="the-discipline-of-artificial-intelligence"><span class="header-section-number">1.1</span> The Discipline of Artificial Intelligence</h2>
+<p>Artificial Intelligence (AI) emerged as a formal scientific discipline in the mid-20th century, building on centuries of philosophical and cognitive inquiry into reasoning, logic, and the nature of the mind. AI became a reality thanks to the development of advanced algorithms, the explosion of digital data, and the rise of high-performance computing infrastructure.</p>
+<p>While rooted in computer science, AI is inherently interdisciplinary, with theoretical foundations drawn from philosophy (knowledge and ethics), psychology (learning and behavior), and neuroscience (biological information processing). Modern AI research also critically addresses ethical considerations such as fairness and accountability, as well as broader societal impacts on human rights, labor, and governance. This highlights the vital need to integrate social science perspectives into the design, deployment, and evaluation of intelligent technologies.</p>
+<p>Because of its interdisciplinary and multifaceted nature, combined with the diversity of its applications, AI is not easy to define precisely.</p>
+<div class="content-box-purple">
+<p><strong>Definitions <span class="citation" data-cites="manyika2022">(<a href="references.html#ref-manyika2022" role="doc-biblioref">Manyika 2022</a>)</span></strong></p>
+<ul>
+<li><p>(Human‑centric description) “Artificial intelligence is the ability of a digital computer or computer‑controlled robot to perform tasks commonly associated with intelligent beings (usually humans), including visual perception, speech recognition, the capacity to reason, solve problems, discover meaning, generalize, and learn from experience.”</p></li>
+<li><p>(Free of human-centricity) AI refers to any system that can perceive its environment and take actions that maximize its chance of achieving specified goals.</p></li>
+</ul>
+</div>
 </section>
-<section id="key-landmarks-in-ai-history" class="level2" data-number="1.2">
-<h2 data-number="1.2" class="anchored" data-anchor-id="key-landmarks-in-ai-history"><span class="header-section-number">1.2</span> Key Landmarks in AI History</h2>
+<section id="major-subfields-of-ai" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="major-subfields-of-ai"><span class="header-section-number">1.2</span> Major Subfields of AI</h2>
+<p>AI is composed of several specialized subfields, each addressing different aspects of intelligent behavior and employing distinct methodologies and tools that have emerged over more than 70 years.</p>
+<p><img src="images\aisubfields.webp" class="img-fluid" width="400"></p>
 <ul>
-<li><strong>400 BCE: The Mechanical Pigeon</strong> <img src="\images\pigeon.png" class="wrap-right img-fluid" width="80"></li>
+<li><p><strong>Symbolic AI:</strong> Early AI research focused on symbolic reasoning, which represents knowledge using explicit <strong>symbols</strong> and formal <strong>rules</strong>, enabling the application of logical operations to these symbols.</p></li>
+<li><p><strong>Machine Learning (ML):</strong> It is a core subfield of AI that focuses on developing algorithms and statistical models enabling computers to <strong>learn from data</strong> (training stage) and improve their performance autonomously, without explicit programming.</p></li>
+<li><p><strong>Deep Learning (DL):</strong> Deep Learning is a subfield of ML that utilizes large artificial neural networks with multiple hidden layers to process complex data and recognize patterns (unlike neural networks used in classic machine learning models, which usually have only one or two hidden layers).</p></li>
 </ul>
-<blockquote class="blockquote">
-<p>In the 4th century BCE, the Greek philosopher and mathematician Archytas of Tarentum reportedly devised a bird-shaped mechanical device known as “The Pigeon,” propelled by a jet of air or steam and said to travel a measurable distance when released from a pivot or wire. The word automaton—from the Greek automaton (“αὐτόματον”), meaning “acting of one’s own will”—was used in antiquity to describe devices that appeared to move without direct human control. From these origins to modern silicon-based systems and drones, a persistent ambition has defined the history of technology: translating biological models and physical laws into engineered systems capable of autonomous or adaptive behavior.</p>
-</blockquote>
+</section>
+<section id="learning-methods" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="learning-methods"><span class="header-section-number">1.3</span> Learning methods</h2>
+<section id="supervised-learning" class="level3" data-number="1.3.1">
+<h3 data-number="1.3.1" class="anchored" data-anchor-id="supervised-learning"><span class="header-section-number">1.3.1</span> Supervised Learning</h3>
+<p>In supervised learning, the model is trained using labeled data, where each input sample is associated with a corresponding target label. The objective is the prediction.</p>
 <ul>
-<li><strong>80 BC: The Antikythera Mechanism</strong> <img src="\images\antikythera.png" class="wrap-right img-fluid" width="65"></li>
+<li><strong>Example: Is it a square?</strong></li>
 </ul>
-<blockquote class="blockquote">
-<p>In the late 2nd to early 1st century BCE, the Antikythera mechanism — an ancient Greek hand‑powered device often described as the world’s earliest known analog computer — was designed with interlocking bronze gears and dials to calculate and display astronomical information such as the positions of the sun, moon, and planets and to predict celestial events like eclipses.</p>
-</blockquote>
+<p><img src="images\sl.png" class="img-fluid" width="300"></p>
+<p><strong>The Training Data:</strong> The process begins with a dataset consisting of various geometric shapes, each associated with a label (pentagon, triangle, circle, square). In machine learning, these labels represent the ground truth and provide the reference outcomes the model aims to learn.</p>
+<p><strong>The Learning Process (The “Gears”):</strong> The labeled data is processed by an algorithm, which learns underlying associations between the input shapes and their corresponding labels.</p>
+<p><strong>Testing on New Data (The “Robot”):</strong> The trained model (the robot) is presented with new geometric shapes and predicts what each shape is.</p>
+</section>
+<section id="unsupervised-learning" class="level3" data-number="1.3.2">
+<h3 data-number="1.3.2" class="anchored" data-anchor-id="unsupervised-learning"><span class="header-section-number">1.3.2</span> Unsupervised Learning</h3>
+<p>In unsupervised learning, the model is trained using unlabeled data. The objective is to cluster the data.</p>
+<ul>
+<li><strong>Example: Into which cluster does the new geometric object belong?</strong></li>
+</ul>
+<p><img src="images\ul.png" class="img-fluid" width="300"></p>
+<p><strong>Unlabeled Training Data:</strong> The input comprises a diverse set of geometric objects lacking predefined categories or ground-truth labels.</p>
+<p><strong>Learning to Cluster (The “Gears”):</strong> The algorithm identifies “hidden” patterns in the shapes, i.e., similarities in structure, size, or edges to cluster them.</p>
+<p><strong>Testing on New Data (The “Robot”):</strong> When presented with a new shape, the trained model (the “robot”) evaluates it and assigns it to the most appropriate cluster based on the patterns it has learned.</p>
+</section>
+<section id="reinforcement-learning" class="level3" data-number="1.3.3">
+<h3 data-number="1.3.3" class="anchored" data-anchor-id="reinforcement-learning"><span class="header-section-number">1.3.3</span> Reinforcement learning</h3>
+<p>Reinforcement learning involves an agent (robot) interacting with an environment to learn optimal behavior through trial and error. The agent receives feedback in the form of rewards or penalties based on its actions, and the goal is to maximize cumulative rewards over time.</p>
+<ul>
+<li><strong>Example: What is the best strategy for arranging the geometric objects into a pyramid?</strong></li>
+</ul>
+<p><img src="images\rl.png" class="img-fluid" width="300"></p>
+<p>The model (robot) is given a goal (“choose the shape to build a pyramid”) and must use trial and error to determine which shapes lead to the highest reward.</p>
+</section>
+</section>
+<section id="components-of-ai-systems" class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored" data-anchor-id="components-of-ai-systems"><span class="header-section-number">1.4</span> Components of AI Systems</h2>
+<p>The core of any machine learning system comprises three interrelated components that form a triangular dependency: models/algorithms, data, and computing infrastructure. Each element influences and constrains the others. The model architecture determines both the computational requirements for training and inference and the volume and structure of data needed for effective learning. The scale and complexity of the data influence the infrastructure needed for storage and processing, while also constraining which model architectures are feasible. Meanwhile, the capabilities of the infrastructure set practical limits on both model size and data processing capacity, establishing the framework within which the other components must operate <span class="citation" data-cites="reddi2024mlsysbook">(<a href="references.html#ref-reddi2024mlsysbook" role="doc-biblioref">Reddi 2024</a>)</span>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images\aisystems.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="500"></p>
+</figure>
+</div>
+<ul>
+<li><p><strong>Models:</strong> Mathematical models, algorithms, and methods that learn patterns from data to make predictions or decisions</p></li>
+<li><p><strong>Data:</strong> Processes and infrastructure for collecting, storing, processing, managing, and serving data for both training and inference</p></li>
+<li><p><strong>Infrastructure:</strong> Hardware and software infrastructure that enables training, serving, and operation of models at scale</p></li>
+</ul>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-manyika2022" class="csl-entry" role="listitem">
+Manyika, James. 2022. <span>“Getting AI Right: Introductory Notes on AI &amp; Society.”</span> <em>Daedalus</em> 151 (2): 5–27. <a href="https://doi.org/10.1162/daed_e_01897">https://doi.org/10.1162/daed_e_01897</a>.
+</div>
+<div id="ref-nikolinakos2023a" class="csl-entry" role="listitem">
+Nikolinakos, Nikos Th. 2023. <span>“Introduction: Benefits/Opportunities and Threats/Risks of AI<span></span>Structure of This Book.”</span> In, 3–21. Springer International Publishing. <a href="https://doi.org/10.1007/978-3-031-27953-9_1">https://doi.org/10.1007/978-3-031-27953-9_1</a>.
+</div>
+<div id="ref-reddi2024mlsysbook" class="csl-entry" role="listitem">
+Reddi, Vijay Janapa. 2024. <span>“MLSysBook.AI: Principles and Practices of Machine Learning Systems Engineering.”</span> In <em>2024 International Conference on Hardware/Software Codesign and System Synthesis (CODES+ ISSS)</em>, 41–42. IEEE. <a href="https://mlsysbook.org">https://mlsysbook.org</a>.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
@@ -620,8 +702,8 @@ ul.task-list li input[type="checkbox"] {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./presentations.html" class="pagination-link" aria-label="Presentations">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Presentations</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./history.html" class="pagination-link" aria-label="A short history of AI">
+        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">A short history of AI</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
