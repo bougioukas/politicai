@@ -72,12 +72,24 @@ The model (robot) is given a goal ("choose the shape to build a pyramid") and mu
 
 ## Components of AI Systems
 
-The core of any machine learning system comprises three interrelated components that form a triangular dependency: models/algorithms, data, and computing infrastructure. Each element influences and constrains the others. The model architecture determines both the computational requirements for training and inference and the volume and structure of data needed for effective learning. The scale and complexity of the data influence the infrastructure needed for storage and processing, while also constraining which model architectures are feasible. Meanwhile, the capabilities of the infrastructure set practical limits on both model size and data processing capacity, establishing the framework within which the other components must operate [@reddi2024mlsysbook].
+The core of any machine learning system comprises three interrelated components that form a triangular dependency: models/algorithms, data, and computing infrastructure [@reddi2024mlsysbook]. 
 
 ![](images\aisystems.png){fig-align="center" width="500"}
 
--   **Models:** Mathematical models, algorithms, and methods that learn patterns from data to make predictions or decisions
+-   **Models:** Mathematical models, algorithms, and methods that learn patterns from data to make predictions or decisions.
 
--   **Data:** Processes and infrastructure for collecting, storing, processing, managing, and serving data for both training and inference
+-   **Data:** Processes and infrastructure for collecting, storing, processing, managing, and serving data for both training and inference.
 
--   **Infrastructure:** Hardware and software infrastructure that enables training, serving, and operation of models at scale
+-   **Infrastructure:** Hardware and software infrastructure that enables training, serving, and operation of models at scale.
+
+<br>
+
+Each element influences and constrains the others [@reddi2024mlsysbook]. 
+
+- The model architecture determines both the computational requirements for training and inference and the volume and structure of data needed for effective learning. 
+
+- The scale and complexity of the data influence the infrastructure needed for storage and processing, while also constraining which model architectures are feasible. 
+
+- The capabilities of the infrastructure set practical limits on both model size and data processing capacity, establishing the framework within which the other components must operate.
+
+
