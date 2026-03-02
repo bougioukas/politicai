@@ -1,6 +1,6 @@
 # Presentations
 
--   **Lecture 1: Intro and data structures**
+-   **Lecture 1: Introduction to Artificial Intelligence**
 
 ![Lecture_1-Introduction_AI](presentations/Lecture_1-Introduction_AI.pdf){width="60%" height="400"}
 
