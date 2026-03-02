@@ -95,7 +95,7 @@ div.csl-indent {
 
 </head>
 
-<body class="nav-sidebar floating quarto-light">
+<body class="nav-sidebar floating slimcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -171,19 +171,20 @@ div.csl-indent {
   <ul>
   <li><a href="#the-discipline-of-artificial-intelligence" id="toc-the-discipline-of-artificial-intelligence" class="nav-link active" data-scroll-target="#the-discipline-of-artificial-intelligence"><span class="header-section-number">1.1</span> The Discipline of Artificial Intelligence</a></li>
   <li><a href="#major-subfields-of-ai" id="toc-major-subfields-of-ai" class="nav-link" data-scroll-target="#major-subfields-of-ai"><span class="header-section-number">1.2</span> Major Subfields of AI</a></li>
-  <li><a href="#learning-methods" id="toc-learning-methods" class="nav-link" data-scroll-target="#learning-methods"><span class="header-section-number">1.3</span> Learning methods</a>
+  <li><a href="#data-splitting-in-machine-learning" id="toc-data-splitting-in-machine-learning" class="nav-link" data-scroll-target="#data-splitting-in-machine-learning"><span class="header-section-number">1.3</span> Data Splitting in Machine Learning</a></li>
+  <li><a href="#learning-methods" id="toc-learning-methods" class="nav-link" data-scroll-target="#learning-methods"><span class="header-section-number">1.4</span> Learning methods</a>
   <ul class="collapse">
-  <li><a href="#supervised-learning" id="toc-supervised-learning" class="nav-link" data-scroll-target="#supervised-learning"><span class="header-section-number">1.3.1</span> Supervised Learning</a></li>
-  <li><a href="#unsupervised-learning" id="toc-unsupervised-learning" class="nav-link" data-scroll-target="#unsupervised-learning"><span class="header-section-number">1.3.2</span> Unsupervised Learning</a></li>
-  <li><a href="#reinforcement-learning" id="toc-reinforcement-learning" class="nav-link" data-scroll-target="#reinforcement-learning"><span class="header-section-number">1.3.3</span> Reinforcement learning</a></li>
+  <li><a href="#supervised-learning" id="toc-supervised-learning" class="nav-link" data-scroll-target="#supervised-learning"><span class="header-section-number">1.4.1</span> Supervised Learning</a></li>
+  <li><a href="#unsupervised-learning" id="toc-unsupervised-learning" class="nav-link" data-scroll-target="#unsupervised-learning"><span class="header-section-number">1.4.2</span> Unsupervised Learning</a></li>
+  <li><a href="#reinforcement-learning" id="toc-reinforcement-learning" class="nav-link" data-scroll-target="#reinforcement-learning"><span class="header-section-number">1.4.3</span> Reinforcement learning</a></li>
   </ul></li>
-  <li><a href="#components-of-ai-systems" id="toc-components-of-ai-systems" class="nav-link" data-scroll-target="#components-of-ai-systems"><span class="header-section-number">1.4</span> Components of AI Systems</a></li>
-  <li><a href="#classification-of-artificial-intelligence" id="toc-classification-of-artificial-intelligence" class="nav-link" data-scroll-target="#classification-of-artificial-intelligence"><span class="header-section-number">1.5</span> Classification of Artificial Intelligence</a></li>
+  <li><a href="#components-of-ai-systems" id="toc-components-of-ai-systems" class="nav-link" data-scroll-target="#components-of-ai-systems"><span class="header-section-number">1.5</span> Components of AI Systems</a></li>
+  <li><a href="#classification-of-artificial-intelligence" id="toc-classification-of-artificial-intelligence" class="nav-link" data-scroll-target="#classification-of-artificial-intelligence"><span class="header-section-number">1.6</span> Classification of Artificial Intelligence</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -228,10 +229,36 @@ div.csl-indent {
 <li><p><strong>Deep Learning (DL):</strong> Deep Learning is a subfield of ML that utilizes large artificial neural networks with multiple hidden layers to process complex data and recognize patterns (unlike neural networks used in classic machine learning models, which usually have only one or two hidden layers).</p></li>
 </ul>
 </section>
-<section id="learning-methods" class="level2" data-number="1.3">
-<h2 data-number="1.3" class="anchored" data-anchor-id="learning-methods"><span class="header-section-number">1.3</span> Learning methods</h2>
-<section id="supervised-learning" class="level3" data-number="1.3.1">
-<h3 data-number="1.3.1" class="anchored" data-anchor-id="supervised-learning"><span class="header-section-number">1.3.1</span> Supervised Learning</h3>
+<section id="data-splitting-in-machine-learning" class="level2 page-columns page-full" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="data-splitting-in-machine-learning"><span class="header-section-number">1.3</span> Data Splitting in Machine Learning</h2>
+<p>In a standard machine learning pipeline (especially for supervised learning), data is typically partitioned into three distinct subsets to ensure the model is both accurate and able to generalize well to new data without overfitting<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.</p>
+<div class="no-row-height column-margin column-container"><div id="fn1"><p><sup>1</sup>&nbsp;Overfitting occurs when a model captures the noise and random fluctuations in the training data rather than the underlying patterns. While this results in high accuracy on the training set, the model fails to generalize, leading to poor performance on unseen validation or test data.</p></div></div><p><strong>Training Set:</strong> The primary portion of the data used to teach the model by letting it learn underlying patterns and adjust its internal parameters.</p>
+<p><strong>Validation Set:</strong> A separate subset used during the development phase to fine-tune hyperparameters<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> (e.g., k in K-NN algorithm, learning rates or architecture depth in deep neural networks) and guide model selection. It acts like a “practice exam,” helping you choose the best model configuration without biasing the final evaluation.</p>
+<div class="no-row-height column-margin column-container"><div id="fn2"><p><sup>2</sup>&nbsp;In many machine learning models and algorithms there are a number of parameters and settings that we need to select prior to training, independent from our data, that determine how the algorithm proceeds. These are known as hyperparameters.</p></div></div><p><strong>Test Set:</strong> A strictly independent “hold-out” set used only once the model is finalized. It provides an unbiased evaluation of how the model will perform on unseen, real-world data.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images\data_split.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="500"></p>
+</figure>
+</div>
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span><svg aria-hidden="true" role="img" viewbox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#1DC5CE;overflow:visible;position:relative;"><path d="M123.6 391.3c12.9-9.4 29.6-11.8 44.6-6.4c26.5 9.6 56.2 15.1 87.8 15.1c124.7 0 208-80.5 208-160s-83.3-160-208-160S48 160.5 48 240c0 32 12.4 62.8 35.7 89.2c8.6 9.7 12.8 22.5 11.8 35.5c-1.4 18.1-5.7 34.7-11.3 49.4c17-7.9 31.1-16.7 39.4-22.7zM21.2 431.9c1.8-2.7 3.5-5.4 5.1-8.1c10-16.6 19.5-38.4 21.4-62.9C17.7 326.8 0 285.1 0 240C0 125.1 114.6 32 256 32s256 93.1 256 208s-114.6 208-256 208c-37.1 0-72.3-6.4-104.1-17.9c-11.9 8.7-31.3 20.6-54.3 30.6c-15.1 6.6-32.3 12.6-50.1 16.1c-.8 .2-1.6 .3-2.4 .5c-4.4 .8-8.7 1.5-13.2 1.9c-.2 0-.5 .1-.7 .1c-5.1 .5-10.2 .8-15.3 .8c-6.5 0-12.3-3.9-14.8-9.9c-2.5-6-1.1-12.8 3.4-17.4c4.1-4.2 7.8-8.7 11.3-13.5c1.7-2.3 3.3-4.6 4.8-6.9c.1-.2 .2-.3 .3-.5z"></path></svg> Comment
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>To ensure evaluation results remain valid, the model must never be exposed to the test set during training or tuning phases. Using test data to inform design or hyperparameter decisions allows the model to indirectly learn from it, inflating reported performance beyond what it would achieve on genuinely unseen data. This phenomenon, known as <strong>data leakage</strong>, produces overly optimistic metrics that fail to generalize to the real world.</p>
+</div>
+</div>
+<p>&nbsp;</p>
+</section>
+<section id="learning-methods" class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored" data-anchor-id="learning-methods"><span class="header-section-number">1.4</span> Learning methods</h2>
+<section id="supervised-learning" class="level3" data-number="1.4.1">
+<h3 data-number="1.4.1" class="anchored" data-anchor-id="supervised-learning"><span class="header-section-number">1.4.1</span> Supervised Learning</h3>
 <p>In supervised learning, the model is trained using labeled data, where each input sample is associated with a corresponding target label. The objective is the prediction.</p>
 <ul>
 <li><strong>Example: Is it a square?</strong></li>
@@ -241,8 +268,8 @@ div.csl-indent {
 <p><strong>The Learning Process (The “Gears”):</strong> The labeled data is processed by an algorithm, which learns underlying associations between the input shapes and their corresponding labels.</p>
 <p><strong>Testing on New Data (The “Robot”):</strong> The trained model (the robot) is presented with new geometric shapes and predicts what each shape is.</p>
 </section>
-<section id="unsupervised-learning" class="level3" data-number="1.3.2">
-<h3 data-number="1.3.2" class="anchored" data-anchor-id="unsupervised-learning"><span class="header-section-number">1.3.2</span> Unsupervised Learning</h3>
+<section id="unsupervised-learning" class="level3" data-number="1.4.2">
+<h3 data-number="1.4.2" class="anchored" data-anchor-id="unsupervised-learning"><span class="header-section-number">1.4.2</span> Unsupervised Learning</h3>
 <p>In unsupervised learning, the model is trained using unlabeled data. The objective is to cluster the data.</p>
 <ul>
 <li><strong>Example: Into which cluster does the new geometric object belong?</strong></li>
@@ -252,8 +279,8 @@ div.csl-indent {
 <p><strong>Learning to Cluster (The “Gears”):</strong> The algorithm identifies “hidden” patterns in the shapes, i.e., similarities in structure, size, or edges to cluster them.</p>
 <p><strong>Testing on New Data (The “Robot”):</strong> When presented with a new shape, the trained model (the “robot”) evaluates it and assigns it to the most appropriate cluster based on the patterns it has learned.</p>
 </section>
-<section id="reinforcement-learning" class="level3" data-number="1.3.3">
-<h3 data-number="1.3.3" class="anchored" data-anchor-id="reinforcement-learning"><span class="header-section-number">1.3.3</span> Reinforcement learning</h3>
+<section id="reinforcement-learning" class="level3" data-number="1.4.3">
+<h3 data-number="1.4.3" class="anchored" data-anchor-id="reinforcement-learning"><span class="header-section-number">1.4.3</span> Reinforcement learning</h3>
 <p>Reinforcement learning involves an agent (robot) interacting with an environment to learn optimal behavior through trial and error. The agent receives feedback in the form of rewards or penalties based on its actions, and the goal is to maximize cumulative rewards over time.</p>
 <ul>
 <li><strong>Example: What is the best strategy for arranging the geometric objects into a pyramid?</strong></li>
@@ -271,8 +298,8 @@ div.csl-indent {
 <p><br></p>
 </section>
 </section>
-<section id="components-of-ai-systems" class="level2" data-number="1.4">
-<h2 data-number="1.4" class="anchored" data-anchor-id="components-of-ai-systems"><span class="header-section-number">1.4</span> Components of AI Systems</h2>
+<section id="components-of-ai-systems" class="level2" data-number="1.5">
+<h2 data-number="1.5" class="anchored" data-anchor-id="components-of-ai-systems"><span class="header-section-number">1.5</span> Components of AI Systems</h2>
 <p>The core of any machine learning system comprises three interrelated components that form a triangular dependency: models/algorithms, data, and computing infrastructure <span class="citation" data-cites="reddi2024mlsysbook">(<a href="references.html#ref-reddi2024mlsysbook" role="doc-biblioref">Reddi 2024</a>)</span>.</p>
 <p><br></p>
 <div class="quarto-figure quarto-figure-center">
@@ -293,8 +320,8 @@ div.csl-indent {
 <li><p>The capabilities of the infrastructure set practical limits on both model size and data processing capacity, establishing the framework within which the other components must operate.</p></li>
 </ul>
 </section>
-<section id="classification-of-artificial-intelligence" class="level2" data-number="1.5">
-<h2 data-number="1.5" class="anchored" data-anchor-id="classification-of-artificial-intelligence"><span class="header-section-number">1.5</span> Classification of Artificial Intelligence</h2>
+<section id="classification-of-artificial-intelligence" class="level2" data-number="1.6">
+<h2 data-number="1.6" class="anchored" data-anchor-id="classification-of-artificial-intelligence"><span class="header-section-number">1.6</span> Classification of Artificial Intelligence</h2>
 <p>Artificial intelligence (AI) can be categorized into three main types based on its scope and level of capability:</p>
 <p><strong>1. Artificial Narrow Intelligence (ANI):</strong> Also called Weak AI, ANI is the most common form of AI in use today. These systems are designed to perform a specific task or a limited set of tasks with high efficiency. They are not capable of understanding, learning, or applying knowledge beyond their specific programmed scope.</p>
 <p><strong>2. Artificial General Intelligence (AGI):</strong> Often referred to as Strong AI, AGI represents a level of intelligence comparable to that of a human being. An AGI system would be capable of learning, reasoning, and solving problems across multiple domains, applying knowledge flexibly to perform any intellectual task a human can.</p>
@@ -357,6 +384,7 @@ Tegmark, Max. 2017. <em>Life 3.0: Being Human in the Age of Artificial Intellige
 </div>
 </div>
 </section>
+
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

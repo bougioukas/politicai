@@ -1,5 +1,12 @@
 # Introduction to Artificial Intelligence {#sec-intro}
 
+```{r}
+#| include: false
+
+library(fontawesome)
+```
+
+
 Like the steam engine or electricity in the past, Artificial Intelligence (AI) is now fundamentally transforming our world, society, and industries. How we approach AI will shape the world we live in. AI has the potential to bring many benefits, including better healthcare, safer and cleaner transportation, more efficient manufacturing, and cheaper, more sustainable energy. At the same time, however, it is widely acknowledged that the same elements and techniques that drive AI’s socio-economic advantages can also give rise to critical ethical concerns and introduce new risks or negative consequences for individuals and society [@nikolinakos2023a].
 
 ## The Discipline of Artificial Intelligence
@@ -29,6 +36,31 @@ AI is composed of several specialized subfields, each addressing different aspec
 -   **Machine Learning (ML):** It is a core subfield of AI that focuses on developing algorithms and statistical models enabling computers to **learn from data** (training stage) and improve their performance autonomously, without explicit programming.
 
 -   **Deep Learning (DL):** Deep Learning is a subfield of ML that utilizes large artificial neural networks with multiple hidden layers to process complex data and recognize patterns (unlike neural networks used in classic machine learning models, which usually have only one or two hidden layers).
+
+
+## Data Splitting in Machine Learning
+
+In a standard machine learning pipeline (especially for supervised learning), data is typically partitioned into three distinct subsets to ensure the model is both accurate and able to generalize well to new data without overfitting^[Overfitting occurs when a model captures the noise and random fluctuations in the training data rather than the underlying patterns. While this results in high accuracy on the training set, the model fails to generalize, leading to poor performance on unseen validation or test data.].
+
+**Training Set:** The primary portion of the data used to teach the model by letting it learn underlying patterns and adjust its internal parameters.
+
+**Validation Set:** A separate subset used during the development phase to fine-tune hyperparameters^[In many machine learning models and algorithms there are a number of parameters and settings that we need to select prior to training, independent from our data, that determine how the algorithm proceeds. These are known as hyperparameters.] (e.g., k in K-NN algorithm, learning rates or architecture depth in deep neural networks) and guide model selection. It acts like a “practice exam,” helping you choose the best model configuration without biasing the final evaluation.
+
+**Test Set:** A strictly independent "hold-out" set used only once the model is finalized. It provides an unbiased evaluation of how the model will perform on unseen, real-world data.
+
+
+![](images\data_split.png){fig-align="center" width="500"}
+
+::: {.callout-tip icon="false"}
+## `r fa("comment", fill = "#1DC5CE")` Comment
+
+To ensure evaluation results remain valid, the model must never be exposed to the test set during training or tuning phases. Using test data to inform design or hyperparameter decisions allows the model to indirectly learn from it, inflating reported performance beyond what it would achieve on genuinely unseen data. This phenomenon, known as **data leakage**, produces overly optimistic metrics that fail to generalize to the real world.
+
+:::
+
+
+ 
+
 
 ## Learning methods
 
@@ -104,36 +136,18 @@ Each element influences and constrains the others [@reddi2024mlsysbook].
 
 -   The capabilities of the infrastructure set practical limits on both model size and data processing capacity, establishing the framework within which the other components must operate.
 
-
-
 ## Classification of Artificial Intelligence
 
 Artificial intelligence (AI) can be categorized into three main types based on its scope and level of capability:
 
-**1. Artificial Narrow Intelligence (ANI):**
-Also called Weak AI, ANI is the most common form of AI in use today. These systems are designed to perform a specific task or a limited set of tasks with high efficiency. They are not capable of understanding, learning, or applying knowledge beyond their specific programmed scope.
+**1. Artificial Narrow Intelligence (ANI):** Also called Weak AI, ANI is the most common form of AI in use today. These systems are designed to perform a specific task or a limited set of tasks with high efficiency. They are not capable of understanding, learning, or applying knowledge beyond their specific programmed scope.
 
-**2. Artificial General Intelligence (AGI):**
-Often referred to as Strong AI, AGI represents a level of intelligence comparable to that of a human being. An AGI system would be capable of learning, reasoning, and solving problems across multiple domains, applying knowledge flexibly to perform any intellectual task a human can.
+**2. Artificial General Intelligence (AGI):** Often referred to as Strong AI, AGI represents a level of intelligence comparable to that of a human being. An AGI system would be capable of learning, reasoning, and solving problems across multiple domains, applying knowledge flexibly to perform any intellectual task a human can.
 
-**3. Artificial Superintelligence (ASI):**
-ASI denotes a hypothetical form of AI that surpasses human intelligence in all aspects. Beyond mere computational power, ASI would excel in creativity, problem-solving, social understanding, and scientific innovation, potentially transforming every area of human activity.
-
+**3. Artificial Superintelligence (ASI):** ASI denotes a hypothetical form of AI that surpasses human intelligence in all aspects. Beyond mere computational power, ASI would excel in creativity, problem-solving, social understanding, and scientific innovation, potentially transforming every area of human activity.
 
 | Type | Alternate Names | Scope/Capabilities | Current Status | Examples/Notes |
-|:---|:---|:---|:---|:---|
+|:--------------|:--------------|:--------------|:--------------|:--------------|
 | **Artificial Narrow Intelligence (ANI)** | Weak AI, Narrow AI | Single task, high proficiency | Widely implemented | Siri, Alexa, Deep Blue, Google Search, movie recommendations |
 | **Artificial General Intelligence (AGI)** | Strong AI, General AI | Human-level intelligence, multi-domain | Theoretical? | Sophia robot |
 | **Artificial Super Intelligence (ASI)** | Superintelligence | Surpasses human intelligence, including creativity, social wisdom, and scientific innovation | Hypothetical | Science fiction, ethical debates |
-
-
-
-
-
-
-
-
-
-
-
-
