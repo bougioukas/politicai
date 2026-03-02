@@ -1,6 +1,5 @@
 # A short history of AI {#sec-history}
 
-
 ## Key Landmarks in AI History
 
 -   **400 BCE: The Mechanical Pigeon**
@@ -14,3 +13,15 @@
 ![](\images\antikythera.png){column="margin" width="200"}
 
 > In the late 2nd to early 1st century BCE, the Antikythera mechanism — an ancient Greek hand‑powered device often described as the world’s earliest known analog computer — was designed with interlocking bronze gears and dials to calculate and display astronomical information such as the positions of the sun, moon, and planets and to predict celestial events like eclipses.
+
+
+-   **1920 BC: Rossum's Universal Robots**
+
+![](\images\rur.webp){column="margin" width="100"}
+
+> R.U.R. (Rossum’s Universal Robots) is a 1920 science fiction play by the Czech writer Karel Čapek. The play begins in a factory that makes artificial workers from synthetic organic matter. Robots may be mistaken for humans but have no original thoughts. Though most are content to work for humans, eventually a rebellion causes the extinction of the human race.
+
+
+
+
+
