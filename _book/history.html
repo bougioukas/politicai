@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -216,10 +236,15 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <p><img src="\images\turing.jpg" class="img-fluid" data-column="margin" width="300"></p>
 <blockquote class="blockquote">
-<p>In 1936, British mathematician and logician Alan Turing published a groundbreaking paper titled “On Computable Numbers, with an Application to the Entscheidungsproblem.” In this work, Turing introduced what we now call the Turing machine—a simple, abstract mathematical model of a computing device that can read and write symbols on an infinite tape according to a set of rules. He showed that such a machine could, in principle, carry out any calculation that can be described as an algorithm.</p>
+<p>In 1936, British mathematician and logician Alan Turing published a groundbreaking paper titled “On Computable Numbers, with an Application to the Entscheidungsproblem” <span class="citation" data-cites="turing1937">(<a href="references.html#ref-turing1937" role="doc-biblioref">Turing 1937</a>)</span>. In this work, Turing introduced what we now call the Turing machine—a simple, abstract mathematical model of a computing device that can read and write symbols on an infinite tape according to a set of rules. He showed that such a machine could, in principle, carry out any calculation that can be described as an algorithm.</p>
 </blockquote>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-turing1937" class="csl-entry" role="listitem">
+Turing, A. M. 1937. <span>“On Computable Numbers, with an Application to the Entscheidungsproblem.”</span> <em>Proceedings of the London Mathematical Society</em> s2-42 (1): 230–65. <a href="https://doi.org/10.1112/plms/s2-42.1.230">https://doi.org/10.1112/plms/s2-42.1.230</a>.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
