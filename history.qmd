@@ -38,4 +38,16 @@ The 45-second [film](https://www.loc.gov/item/2026125501/?loclr=blogloc) , made 
 
 ![](\images\turing.jpg){column="margin" width="300"}
 
-> In 1936, British mathematician and logician Alan Turing published a groundbreaking paper titled “On Computable Numbers, with an Application to the Entscheidungsproblem” [@turing1937]. In this work, Turing introduced what we now call the Turing machine—a simple, abstract mathematical model of a computing device that can read and write symbols on an infinite tape according to a set of rules. He showed that such a machine could, in principle, carry out any calculation that can be described as an algorithm.
+> In 1936, British mathematician and logician Alan Turing, considered the father of computer science, published a groundbreaking paper titled “On Computable Numbers, with an Application to the Entscheidungsproblem” [@turing1937]. In this work, Turing introduced what we now call the Turing machine—a simple, abstract mathematical model of a computing device that can read and write symbols on an infinite tape according to a set of rules. He showed that such a machine could, in principle, carry out any calculation that can be described as an algorithm.
+
+
+
+
+-   **1943 AD: McCulloch–Pitts neuron**
+
+![](\images\mcculloch.png){column="margin" width="200"}
+
+> In 1943, Warren McCulloch and Walter Pitts published "A Logical Calculus of the Ideas Immanent in Nervous Activity", in which they introduced the concept of the formal neuron, a simplified mathematical model of a biological neuron that represents neural activity as a binary, all-or-none process.
+
+
+
