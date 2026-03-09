@@ -47,7 +47,27 @@ The 45-second [film](https://www.loc.gov/item/2026125501/?loclr=blogloc) , made 
 
 ![](\images\mcculloch.png){column="margin" width="200"}
 
-> In 1943, Warren McCulloch and Walter Pitts published "A Logical Calculus of the Ideas Immanent in Nervous Activity", in which they introduced the concept of the formal neuron, a simplified mathematical model of a biological neuron that represents neural activity as a binary, all-or-none process.
+> In 1943, Warren McCulloch and Walter Pitts published "A Logical Calculus of the Ideas Immanent in Nervous Activity", in which they introduced the concept of the formal neuron, a simplified mathematical model of a biological neuron that represents neural activity as a binary, all-or-none process. This paper had a significant impact on the first digital computer developed by John Von Neumann in the same year.
+
+
+
+
+-   **1949 AD: Giant Brains, or Machines That Think**
+
+![](\images\giant.png){column="margin" width="200"}
+
+> A historically significant book on early computing and the idea of machines that could perform tasks similar to human thinking. "The two chief harmful effects upon humanity which are to be expected from robot machines are physical danger and unemployment. These are serious risks, and some degree of social control is needed to guard against them."
+
+
+
+
+-   **1950 AD: Turing Test**
+
+![](\images\turingtest.jpg){column="margin" width="200"}
+
+In his paper "Computing Machinery and Intelligence", Turing proposes the "Imitation Game" to determine if a machine can exhibit intelligent behavior indistinguishable from human responses.
+
+
 
 
 
