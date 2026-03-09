@@ -5,3 +5,10 @@
 ![Lecture_1-Introduction_AI](presentations/Lecture_1-Introduction_AI.pdf){width="60%" height="400"}
 
      
+
+
+-   **Lecture 2: Digital Machines, Intelligence & Consciousness**
+
+![Lecture_2-Digital_machines_Intelligence_Consciousness](presentations/Lecture_2-Digital_machines_Intelligence_Consciousness.pdf){width="60%" height="400"}
+
+     
