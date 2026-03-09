@@ -63,7 +63,7 @@ The 45-second [film](https://www.loc.gov/item/2026125501/?loclr=blogloc) , made 
 
 -   **1950 AD: Turing Test**
 
-![](\images\turingtest.jpg){column="margin" width="200"}
+![](\images\turingtest.jpg){column="margin" width="300"}
 
 In his paper "Computing Machinery and Intelligence", Turing proposes the "Imitation Game" to determine if a machine can exhibit intelligent behavior indistinguishable from human responses.
 
