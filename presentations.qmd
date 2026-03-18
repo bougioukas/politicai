@@ -6,9 +6,25 @@
 
      
 
-
 -   **Lecture 2: Digital Machines, Intelligence & Consciousness**
 
 ![Lecture_2-Digital_machines_Intelligence_Consciousness](presentations/Lecture_2-Digital_machines_Intelligence_Consciousness.pdf){width="60%" height="400"}
 
      
+
+
+-   **Lecture 3: Machine Learning Algorithms**
+
+::: {.callout-note appearance="default" icon=false style="border-left: 5px solid #B7472A;"}
+## <i class="bi bi-lightbulb-fill" style="color: #B7472A;"></i> Get the Presentation
+
+You can download the complete Power Point presentation file from here:
+
+<a href="presentations/Lecture_3-Machine_learning.pptx" class="btn btn-primary" download style="background-color: #B7472A; border: none; padding: 10px 20px; text-decoration: none; display: inline-flex; align-items: center; gap: 10px; border-radius: 4px; color: white; font-weight: 500;">
+  <i class="bi bi-file-earmark-ppt-fill"></i> Download PowerPoint
+</a>
+:::
+
+     
+
+
