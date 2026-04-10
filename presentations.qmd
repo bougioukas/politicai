@@ -36,7 +36,6 @@ You can download the complete Power Point presentation file from here:
 
      
 
-
 -   **Lecture 5: Data in the age of AI**
 
 ![Lecture_5-Data](presentations/Lecture_5-Data.pdf){width="60%" height="400"}
@@ -44,6 +43,10 @@ You can download the complete Power Point presentation file from here:
      
 
 
+-   **Lecture 6: Real-world examples and applications of AI**
 
+![Lecture_6-AI_Applications](presentations/Lecture_6-AI_Applications.pdf){width="60%" height="400"}
+
+     
 
 
