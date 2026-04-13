@@ -42,11 +42,21 @@ You can download the complete Power Point presentation file from here:
 
      
 
-
 -   **Lecture 6: Real-world examples and applications of AI**
 
 ![Lecture_6-AI_Applications](presentations/Lecture_6-AI_Applications.pdf){width="60%" height="400"}
 
      
+
+
+
+-   **Lecture 7: Bias in AI**
+
+![Lecture_7- Bias_in_AI](presentations/Lecture_7- Bias_in_AI.pdf){width="60%" height="400"}
+
+     
+
+
+
 
 
