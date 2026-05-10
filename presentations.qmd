@@ -48,15 +48,18 @@ You can download the complete Power Point presentation file from here:
 
      
 
-
-
 -   **Lecture 7: Bias in AI**
 
-![Lecture_7- Bias_in_AI](presentations/Lecture_7- Bias_in_AI.pdf){width="60%" height="400"}
+![Lecture_7- Bias_in_AI](presentations/Lecture_7-Bias_in_AI.pdf){width="60%" height="400"}
 
      
 
 
 
+-   **Lectures 8 & 9: MIT AI risk taxonomy**
+
+![Lectures_8and9-AI_Risks](presentations/Lectures_8and9-AI_Risks.pdf){width="60%" height="400"}
+
+     
 
 
